@@ -1,0 +1,65 @@
+body{
+  background-color: steelblue;
+}
+
+.colorChange{
+  transition: all 2s;
+}
+
+
+.mbody{
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    
+    max-height:300px;
+    box-shadow: 10px 10px 15px;
+}
+
+.qbody{
+      font-size:30px;
+   font-family: 'Niconne', cursive;
+  box-shadow: 3px 3px 15px;
+  max-height:200px;
+  overflow-y:auto;
+  
+}
+
+.two:hover{
+  animation: shake 3s;
+}
+
+.three:hover{
+  animation: bounce 3s;
+}
+
+
+.conimage{
+  width:50px;
+  height:50px;
+  max-width:50px;
+   margin:0;
+  padding:0;
+  display:inline-block;
+}
+.conimage img{
+  width:100%;
+  height:100%;
+  max-width:50px;
+   margin:0;
+  padding:0;
+  display:inline-block;
+}
+
+
+.fr{
+  float:right;
+  margin:10px;
+  transition: all 1s;
+}
+
+.fr:hover{
+  background-color:#303030;
+}
+
